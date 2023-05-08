@@ -40,7 +40,7 @@ public class ProgramController {
         //Ball ball1 = new Ball(150,150);
         //viewController.draw(ball1);
 
-        Board board = new Board();
+        Board board = new Board(12,50);
         viewController.draw(board);
 
     }
